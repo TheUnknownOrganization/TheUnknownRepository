@@ -1,4 +1,4 @@
-Name: Workflow_a86d
+Name: TheUnknownWorkflow
 SchemaVersion: "1.0"
 
 # Optional - Set automatic triggers.
@@ -9,7 +9,7 @@ Triggers:
 
 # Required - Define action configurations.
 Actions:
-  HelloWorld_d0:
+  GreetUnknown:
     # Identifies the action. Do not modify this value.
     Identifier: aws/helloworld@v0.0.2
     # Specifies the source and/or artifacts to pass to the action as input.
@@ -21,6 +21,6 @@ Actions:
       Type: EC2
     # Defines the action's properties.
     Configuration:
-      HowToGreet: Hello there,
-      WhoToGreet: _
+      HowToGreet: Heartbeat,
+      WhoToGreet: Tick
     #
